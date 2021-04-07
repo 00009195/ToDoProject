@@ -1,0 +1,171 @@
+
+  
+*{
+    margin: 0;
+    padding: 0;
+        
+    }
+    body{
+     background-color: black;
+     background: url(poverhnost-render-abstrakciya.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+    }
+  
+    
+    
+    
+    /*======================================
+                 LayoutPage
+    =====================================*/
+    .Section {
+      max-width: 100%;
+      height: 1000px
+        
+    }
+    .mainName{
+      max-width: 100%;
+      
+      
+    }
+   
+    .name{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 80px;
+      color: white;
+      text-align: center;
+      background-color: rgb(163, 24, 24);
+      animation: change 2s linear infinite;
+    
+    }
+
+    .mainName h1{
+     text-align: center;
+    }
+    .mistake{
+        margin-left: 500px;
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 10px 20px;
+        background: rgb(163, 24, 24);
+        color: #fff;
+        font-weight: 900;
+        margin-top: 40px;
+        width: 400px;
+        text-align: center;
+    }
+    .added{
+        margin-left: 500px;
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 10px 20px;
+        background: rgb(163, 24, 24);
+        color: #fff;
+        font-weight: 900;
+        margin-top: 40px;
+        width: 400px;
+        text-align: center;
+    }
+    .failure{
+      margin-left: 500px;
+      text-decoration: none;
+      font-size: 2rem;
+      padding: 10px 20px;
+      background: rgb(163, 24, 24);
+      color: #fff;
+      font-weight: 900;
+      margin-top: 40px;
+      width: 400px;
+      text-align: center;
+    }
+    .form{
+      text-align: center;
+      width: 100%;
+      margin-top: 50px;
+    }
+    .ProjectTasks p{
+    
+    }
+    .input{
+      display: inline-block;
+      padding: 10px;
+      font-size: 1.5rem;
+      width: 70%;
+      border: 1px solid rgb(163, 24, 24);
+      font-family: inherit;
+      border-top-left-radius: 20px;
+      text-decoration: none;
+     
+    }
+    .BtnAdd{
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1.6rem;
+      width: 18%;
+      border: 2px solid rgb(163, 24, 24);
+      background:black;
+      color: #fff;
+      font-weight: 900;
+      
+      
+    }
+    .BtnAdd:hover{
+        background-color: rgb(163, 24, 24);
+    }
+    
+    .ProjectTasks{
+      margin-top: 25px;
+      border: 1px solid rgb(163, 24, 24);
+      padding: 10px;
+      width: 800px;
+      margin-left: 300px;
+    }
+  
+    .ProjectTask{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      font-size: 1.5rem;
+      color: white;
+      font-weight: 400;
+    
+    }
+    .ProjectTask:last-child {
+      border-bottom: none;
+    }
+    
+    
+    .ProjectTask:hover {
+      background: rgb(163, 24, 24);
+    }
+    .adding, 
+    .try {
+      text-decoration: none;
+      color: white;
+      font-weight: 400;
+    }
+    
+    .adding {
+      text-decoration: line-through;
+    }
+    .remove{
+      display: inline-block;
+      padding: 5px 10px;
+      font-size: 1rem;
+     
+      border: none;
+      background:black;
+      color: #fff;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      text-decoration: none;
+     
+      
+    }
+    
+    /*=======================================
+                  HomePage
+    =======================================*/
+      
+     
